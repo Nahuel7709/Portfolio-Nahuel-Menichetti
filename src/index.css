@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-custom-background bg-cover bg-center bg-no-repeat sm:bg-center ;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@layer components {
+  .custom-hover {
+    @apply text-slate-800 p-2 rounded transition;
+  }
+  .custom-hover:hover {
+    @apply text-violet-400 p-2 rounded transition;
+  }
+}
+
+.custom-fadeIn {
+  animation-duration: 2s; 
+}
