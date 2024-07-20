@@ -7,7 +7,7 @@ export default {
         sans: ["Montserrat", "sans-serif"],
       },
       backgroundImage: {
-        "custom-background": "url('/public/assets/images/main-image.png')",
+        "custom-background": "url('/assets/images/main-image.png')",
       },
       keyframes: {
         shimmer: {

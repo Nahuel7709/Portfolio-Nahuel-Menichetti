@@ -5,7 +5,7 @@ import email from '/assets/svgs/gmail-logo.svg';
 
 export const Footer = () => {
   return (
-    <div className="flex flex-col items-center gap-3 md:flex-row md:justify-around mb-4 animate__animated animate__fadeIn">
+    <div className="flex flex-col items-center gap-3 md:flex-row md:justify-around my-4 animate__animated animate__fadeIn">
       <p className="text-stone-800">© Nahuel Menichetti, 2024</p>
       <div>
         <ul className="flex gap-4">
