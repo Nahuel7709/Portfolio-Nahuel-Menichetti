@@ -21,7 +21,7 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-center sticky top-0">
+    <div className="flex justify-center sticky top-0 z-50">
       <ul className="inline-flex animate__animated animate__fadeIn justify-center items-center gap-3 mt-10 md:flex-row p-5 rounded-xl bg-slate-500/10">
         <li>
           <Link to="/" className={getLinkClass("/")}>
